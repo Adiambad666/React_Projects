@@ -1,25 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Input from './Input';
+import Buttons from './Buttons';
+import Buttons1 from './Buttons1';
+import Button2 from './Buttons2';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return ( < >
+        <
+        center >
+        <
+        div className = "box" >
+        <
+        h1 > Calucator < /h1> <
+        Input > < /Input> <
+        Buttons > < /Buttons> <
+        Buttons1 > < /Buttons1> <
+        Button2 > < /Button2> <
+        /div></center >
+        <
+        />
+    );
 }
 
 export default App;
